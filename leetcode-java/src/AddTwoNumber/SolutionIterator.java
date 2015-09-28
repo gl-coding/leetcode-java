@@ -1,6 +1,6 @@
 package AddTwoNumber;
 
-public class CopyOfSolution {
+public class SolutionIterator {
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		ListNode returnNode = addTwoNumbers_sub(l1, l2, 0);
 		return returnNode;
@@ -58,7 +58,7 @@ public class CopyOfSolution {
     }
     
     public static void main(String[] args) {
-		CopyOfSolution solution = new CopyOfSolution();
+		SolutionIterator solution = new SolutionIterator();
 		ListNode head = new ListNode(9);
 		head.next = new ListNode(8);
 		
