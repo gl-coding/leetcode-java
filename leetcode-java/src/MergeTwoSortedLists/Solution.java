@@ -1,10 +1,5 @@
 package MergeTwoSortedLists;
 
-import java.awt.Checkbox;
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.Iterator;
-
 public class Solution {
 	
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
@@ -19,10 +14,10 @@ public class Solution {
 		}
         ListNode headListNode;
         if (getHead(l1, l2)) {
-			headListNode = l1;
+			headListNode = l2;
 		}
         else {
-			headListNode = l2;
+			headListNode = l1;
 		}
         ListNode tmpListNode;
         if (checkList(l1, l2)) {

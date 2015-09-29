@@ -8,7 +8,7 @@ public class Solution {
 	
     public int[] twoSum(int[] nums, int target) {
     	int [] returnInt = new int[2];
-    	Hashtable<Integer, Integer> hashMap = new Hashtable<Integer, Integer>();
+    	HashMap<Integer, Integer> hashMap = new HashMap<Integer, Integer>();
     	for (int i = 0; i < nums.length; i++) {
 			int tmp = target - nums[i];
 			if (hashMap.get(tmp) != null) {
